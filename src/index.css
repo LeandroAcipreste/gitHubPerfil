@@ -1,0 +1,53 @@
+:root{
+  --corPrincipal: #000035;
+  --corSecundaria: #4846ff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container{
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.input-name{
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+  border: 2px solid var(--corPrincipal);
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  width: 1280px;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
