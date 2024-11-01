@@ -16,13 +16,40 @@
   margin: 0 auto;
 }
 
-.input-name{
-  width: 200px;
-  height: 20px;
-  border-radius: 5px;
-  border: 2px solid var(--corPrincipal);
+.container-index{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
+.input-name{
+  width: 200px;
+  height: 42px;
+  border-radius: 5px;
+  border: 2px solid var(--corPrincipal);
+  margin-top: 10px;
+}
+
+.btn-submit{
+  width: 84px;
+  height: 42px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--corPrincipal);
+  color: white;
+  font-weight: bold; 
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.errorMessage{
+  color: red;
+  text-align: center;
+  margin: 20px 0;
+}
 
 body {
   margin: 0;
